@@ -1,0 +1,1249 @@
+/************************PROCESS ZERO****************************/
+G-SebastiandeMacBook-Pro:mine g-sebastian$ java -cp ".:gson-2.8.2.jar" Blockchain 0
+Sebastian Gao's BlockFramework. Control-c to quit.
+
+Running on process 0
+
+Now running... 
+
+Reading data from file: BlockInput0.txt
+Timestamp:  1899-12-31.00:00:00.0
+Timestamp:  1901-02-01.00:00:00.0
+Timestamp:  1902-03-02.00:00:00.0
+Timestamp:  1903-04-03.00:00:00.0
+4 records read.
+
+Starting Key Server input thread using port: 4710
+Starting the Unverified Block Server input thread using port: 4820
+Starting the blockchain server input thread using port: 4930
+Put the block in priority queue: {  "BlockID": "5344a024-7bcf-4317-a310-72f613ff2e51",  "TimeStamp": " 1901-02-01.00:00:00.0",  "Fname": "Joe",  "Lname": "Blow",  "SSNum": "123-45-6888",  "DOB": "1996.03.07",  "Diag": "Smallpox",  "Treat": "BedRest",  "Rx": "Whiskey"}
+
+Put the block in priority queue: {  "BlockID": "88b3ca32-83fb-49f3-9d53-ee963a4b6440",  "TimeStamp": " 1899-12-31.00:00:00.0",  "Fname": "John",  "Lname": "Smith",  "SSNum": "123-45-6789",  "DOB": "1996.03.07",  "Diag": "Chickenpox",  "Treat": "BedRest",  "Rx": "aspirin"}
+
+Put the block in priority queue: {  "BlockID": "86d22916-e5c9-4666-a3a5-95082cda8856",  "TimeStamp": " 1902-03-02.00:00:00.0",  "Fname": "Julie",  "Lname": "Wilson",  "SSNum": "123-45-6999",  "DOB": "1996.03.07",  "Diag": "Insomnia",  "Treat": "Exercise",  "Rx": "HotPeppers"}
+
+Put the block in priority queue: {  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil"}
+
+Starting the unverified block priority queue consumer thread.
+
+Consumer got unverified block: John Smith
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 940EC9DF8CA9080DDA7475D25C3BCEE286D73743246BF69051CE6856B7A84F99
+First 16 bits in Hex and Decimal: 940E and 37902
+37902 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 7B6D0007B72067E916CC68D55DF5196E4F24B7B566C16F15AD9F7AF6BC47628A
+First 16 bits in Hex and Decimal: 7B6D and 31597
+31597 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 6DC85CF7B44ED3152E247935395CF2A00AFD5F6028AFFE75C0201DCEF7E8DB78
+First 16 bits in Hex and Decimal: 6DC8 and 28104
+28104 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1F292F70CE8FE989FA0EEB45EEA5F9417732177C78669ABD2235F6646B7D858F
+First 16 bits in Hex and Decimal: 1F29 and 7977
+7977 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 80313KPD
+<John Smith verified by P0 at time 944>
+
+Consumer got unverified block: Joe Blow
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "88b3ca32-83fb-49f3-9d53-ee963a4b6440",  "TimeStamp": " 1899-12-31.00:00:00.0",  "Fname": "John",  "Lname": "Smith",  "SSNum": "123-45-6789",  "DOB": "1996.03.07",  "Diag": "Chickenpox",  "Treat": "BedRest",  "Rx": "aspirin",  "RandomSeed": "80313KPD",  "WinningHash": "1F292F70CE8FE989FA0EEB45EEA5F9417732177C78669ABD2235F6646B7D858F"}
+
+
+{  "BlockID": "88b3ca32-83fb-49f3-9d53-ee963a4b6440",  "TimeStamp": " 1899-12-31.00:00:00.0",  "Fname": "John",  "Lname": "Smith",  "SSNum": "123-45-6789",  "DOB": "1996.03.07",  "Diag": "Chickenpox",  "Treat": "BedRest",  "Rx": "aspirin",  "RandomSeed": "80313KPD",  "WinningHash": "1F292F70CE8FE989FA0EEB45EEA5F9417732177C78669ABD2235F6646B7D858F"}
+The Hash is: C6B8527F909D58A059CADA1C577A2DB08D01906987E1025934A4CC8F17B7CCE8
+First 16 bits in Hex and Decimal: C6B8 and 50872
+50872 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 495BA11B7BD66D76E8BF06C7BABAA2ACA865518BCD9EFE56F02E29525E5227B3
+First 16 bits in Hex and Decimal: 495B and 18779
+18779 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1D6CE187DE321B5D45C8679A1314B9B87E87556A9C0F37985C830FC3D8E2DCAF
+First 16 bits in Hex and Decimal: 1D6C and 7532
+7532 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: UMO6WH4P
+<Joe Blow verified by P0 at time 437>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "5344a024-7bcf-4317-a310-72f613ff2e51",  "TimeStamp": " 1901-02-01.00:00:00.0",  "Fname": "Joe",  "Lname": "Blow",  "SSNum": "123-45-6888",  "DOB": "1996.03.07",  "Diag": "Smallpox",  "Treat": "BedRest",  "Rx": "Whiskey",  "RandomSeed": "UMO6WH4P",  "WinningHash": "1D6CE187DE321B5D45C8679A1314B9B87E87556A9C0F37985C830FC3D8E2DCAF"}
+
+
+{  "BlockID": "5344a024-7bcf-4317-a310-72f613ff2e51",  "TimeStamp": " 1901-02-01.00:00:00.0",  "Fname": "Joe",  "Lname": "Blow",  "SSNum": "123-45-6888",  "DOB": "1996.03.07",  "Diag": "Smallpox",  "Treat": "BedRest",  "Rx": "Whiskey",  "RandomSeed": "UMO6WH4P",  "WinningHash": "1D6CE187DE321B5D45C8679A1314B9B87E87556A9C0F37985C830FC3D8E2DCAF"}
+Consumer got unverified block: Julie Wilson
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: AB5C9C993320A3735F18BAD6EF4C358D60A2CC6125413E2F965E1D9919168992
+First 16 bits in Hex and Decimal: AB5C and 43868
+43868 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 410487EED095C68FA25BAC3467210CDF2488C0066295A78C4FF0CF975F1D730E
+First 16 bits in Hex and Decimal: 4104 and 16644
+16644 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: F923764146C60E3EFC99E022115ABC24DD28E554219665B1EF5951CD75A707EF
+First 16 bits in Hex and Decimal: F923 and 63779
+63779 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: EBCE7527FD52F8C8C13BDAEE890212B394E680D7C8B20EECEFCF9F4329E2BC1C
+First 16 bits in Hex and Decimal: EBCE and 60366
+60366 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 31A15E0DE34FD87D6EB2906DACAD048954D9363F3673C41757E4067575E84409
+First 16 bits in Hex and Decimal: 31A1 and 12705
+12705 is not less than 10,000 so we did not solve the puzzle
+
+Put the block in priority queue: {  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen"}
+
+Put the block in priority queue: {  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax"}
+
+Put the block in priority queue: {  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan"}
+
+Put the block in priority queue: {  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine"}
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "KF9HB6G6",  "WinningHash": "10664C163A1E66B5C44C6DD1CE221C030BF56C7173408EDD3814A0ED8431E066"}
+
+
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "KF9HB6G6",  "WinningHash": "10664C163A1E66B5C44C6DD1CE221C030BF56C7173408EDD3814A0ED8431E066"}
+The Hash is: 8D7DB3917462DCF4A863D861EF4B813F7BFA3086BA3363306991E99BAE9E8AC4
+First 16 bits in Hex and Decimal: 8D7D and 36221
+36221 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 126C60837A82EB9959C0E115904AEE7EBD099072FF3C36FF5FC985BB297640B5
+First 16 bits in Hex and Decimal: 126C and 4716
+4716 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: IAKDEICM
+<Julie Wilson verified by P0 at time 138>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "86d22916-e5c9-4666-a3a5-95082cda8856",  "TimeStamp": " 1902-03-02.00:00:00.0",  "Fname": "Julie",  "Lname": "Wilson",  "SSNum": "123-45-6999",  "DOB": "1996.03.07",  "Diag": "Insomnia",  "Treat": "Exercise",  "Rx": "HotPeppers",  "RandomSeed": "IAKDEICM",  "WinningHash": "126C60837A82EB9959C0E115904AEE7EBD099072FF3C36FF5FC985BB297640B5"}
+
+
+{  "BlockID": "86d22916-e5c9-4666-a3a5-95082cda8856",  "TimeStamp": " 1902-03-02.00:00:00.0",  "Fname": "Julie",  "Lname": "Wilson",  "SSNum": "123-45-6999",  "DOB": "1996.03.07",  "Diag": "Insomnia",  "Treat": "Exercise",  "Rx": "HotPeppers",  "RandomSeed": "IAKDEICM",  "WinningHash": "126C60837A82EB9959C0E115904AEE7EBD099072FF3C36FF5FC985BB297640B5"}
+Consumer got unverified block: Rita Vita
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 99D51F073E7CCB1F61E45FBC5D67B28BB4E79D708C5FB1A56A087DD05313E051
+First 16 bits in Hex and Decimal: 99D5 and 39381
+39381 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 802C0C511CA2DD5F1D3074A689A893DFD2A1AAA7AB614EFC7D16B98049D5D423
+First 16 bits in Hex and Decimal: 802C and 32812
+32812 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 8C0D805005BB4F67B171FA50C6CFB7698CBC5097D917383E6C461D83664D06E1
+First 16 bits in Hex and Decimal: 8C0D and 35853
+35853 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1B0743B8DAD444023A51F9C7C38008B0DF6FDDAAEA184B63BFA7288E091778B0
+First 16 bits in Hex and Decimal: 1B07 and 6919
+6919 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: O4F7UMRT
+<Rita Vita verified by P0 at time 187>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "O4F7UMRT",  "WinningHash": "1B0743B8DAD444023A51F9C7C38008B0DF6FDDAAEA184B63BFA7288E091778B0"}
+
+
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "O4F7UMRT",  "WinningHash": "1B0743B8DAD444023A51F9C7C38008B0DF6FDDAAEA184B63BFA7288E091778B0"}
+Consumer got unverified block: Wei Xu
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: D5D2F73B66D4058B0AAF2EA927D57F2108128B9E8F1F2DCEC6DDDC15A5B756B3
+First 16 bits in Hex and Decimal: D5D2 and 54738
+54738 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "F2IKAQJ3",  "WinningHash": "25B95E64BB9ED3ECC9D11F692AB0DE8B623727E74F09BF1EF5F260880E2EA7EB"}
+
+
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "F2IKAQJ3",  "WinningHash": "25B95E64BB9ED3ECC9D11F692AB0DE8B623727E74F09BF1EF5F260880E2EA7EB"}
+The Hash is: 290DA50E24CD9B026252B3ACCCF5239C5501D6E43B7ACE38852897B043A4DD73
+First 16 bits in Hex and Decimal: 290D and 10509
+10509 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "Q6D7LZD4",  "WinningHash": "2674F1F3824220E4D4750DB1C14A5CA809A6FA1C5C2273FE5D04481E944E0635"}
+
+
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "Q6D7LZD4",  "WinningHash": "2674F1F3824220E4D4750DB1C14A5CA809A6FA1C5C2273FE5D04481E944E0635"}
+The Hash is: 4880D0BA0BF41B07E5802BA95108CD2F7FD29DC64607CD4515E53C2D751FC23C
+First 16 bits in Hex and Decimal: 4880 and 18560
+18560 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 8AE00803FF698827DFA4B44814A4266CC61DC8AED3CF0B28E62EEF3F79544335
+First 16 bits in Hex and Decimal: 8AE0 and 35552
+35552 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 6162AF6B029F54D030DFF0D156499C7D8D62C947ABE4151BBCBF9774BBF6A88C
+First 16 bits in Hex and Decimal: 6162 and 24930
+24930 is not less than 10,000 so we did not solve the puzzle
+
+Put the block in priority queue: {  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin"}
+
+Put the block in priority queue: {  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey"}
+
+Put the block in priority queue: {  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids"}
+
+Put the block in priority queue: {  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin"}
+
+The Hash is: EE7661C578CB621C361B681BAA699AF3684C1E72446BF35754E2AD0980FF4746
+First 16 bits in Hex and Decimal: EE76 and 61046
+61046 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 4A96673ADFA5D25036144CF3D069FED72C92D439D432A31B7928A1699BAB61DD
+First 16 bits in Hex and Decimal: 4A96 and 19094
+19094 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 86B2AD1CBBC8E53F820D8BFDEE366383BBF01C9AB184FDE5F09A147044B608E0
+First 16 bits in Hex and Decimal: 86B2 and 34482
+34482 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 5D708204D7B3E0AAB11387CADE88257A2C89FD5A1104B3E8EFD06953C4376CC0
+First 16 bits in Hex and Decimal: 5D70 and 23920
+23920 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 92DE014C171878F94F1FD01415155FDEBE4C32A28C702E4F324D8FEB293A73C0
+First 16 bits in Hex and Decimal: 92DE and 37598
+37598 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "NJTY06TI",  "WinningHash": "1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95"}
+
+
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "NJTY06TI",  "WinningHash": "1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95"}
+The Hash is: FDF856642C2DB7DC0024F47701A22FE4D10E63825EC0AF1419F0AF3848C4BF06
+First 16 bits in Hex and Decimal: FDF8 and 65016
+65016 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "IUIM0NSH",  "WinningHash": "23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "IUIM0NSH",  "WinningHash": "23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D"}
+The Hash is: 7AC28B9AA25CC1DFB1F669A35AB43DA7CAA152369EC6BD143AB9B9B3EB3F5561
+First 16 bits in Hex and Decimal: 7AC2 and 31426
+31426 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "QZW99WC3",  "WinningHash": "004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "QZW99WC3",  "WinningHash": "004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81"}
+The Hash is: BE4BCAE5825BB173999C4B66EC9C8AA192D0901D1F71540F6E6BC8DCB82DEDB3
+First 16 bits in Hex and Decimal: BE4B and 48715
+48715 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 98FA3D34AAC7C7D7E7EEBC7DEAA43D00526418CC7C038E68E3AF5B08ABF62BAB
+First 16 bits in Hex and Decimal: 98FA and 39162
+39162 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: F720A5C8AC7E7A622C7EC4B9C92B80EE3B52AAF2C3EF2A3277E54F880B622650
+First 16 bits in Hex and Decimal: F720 and 63264
+63264 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: B9BF1032766E142B62C90DFEB3C8646203CAEAF75EF70E572F70CA0E6005758C
+First 16 bits in Hex and Decimal: B9BF and 47551
+47551 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "4WHT57V7",  "WinningHash": "26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "4WHT57V7",  "WinningHash": "26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028"}
+The Hash is: BED3E3CBA43457253148FD3EF2E5332697645AF277AABEEC3270D2A7CE232DD0
+First 16 bits in Hex and Decimal: BED3 and 48851
+48851 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: F00721E0F959FE8FD8986D7BE751BCC8668BC88308FA1109A5A185C88C6DBD4F
+First 16 bits in Hex and Decimal: F007 and 61447
+61447 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8
+First 16 bits in Hex and Decimal: 2110 and 8464
+8464 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: BEOTL1KJ
+<Wei Xu verified by P0 at time 713>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "BEOTL1KJ",  "WinningHash": "2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8"}
+
+
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "BEOTL1KJ",  "WinningHash": "2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8"}
+Consumer got unverified block: Helen Keller
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 7983C600AB6EB40CD5181B08C6DDA02A008243DF91A74DE49F447F333E6EAFB6
+First 16 bits in Hex and Decimal: 7983 and 31107
+31107 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "XE6ORXCN",  "WinningHash": "028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "XE6ORXCN",  "WinningHash": "028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF"}
+The Hash is: C68E25DABFF183EE419D841CBD059C664362FE47330F8D53E73A5E3A9DDD329B
+First 16 bits in Hex and Decimal: C68E and 50830
+50830 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 8D0CFB1E52F8EA8DD30FE54224ABAD090742E418FDA1A6935367D89E3F33D54D
+First 16 bits in Hex and Decimal: 8D0C and 36108
+36108 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: EBCF1E05C2C38B648DE772314B2D5B38984C91BDC5A96C05D2ACC25DDB9FE453
+First 16 bits in Hex and Decimal: EBCF and 60367
+60367 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: DC40EE0BE67C8E30FF50629145D67E76A770E7B3B85C288B68BC53A7E38E7432
+First 16 bits in Hex and Decimal: DC40 and 56384
+56384 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "HGUA2TTX",  "WinningHash": "111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "HGUA2TTX",  "WinningHash": "111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8"}
+The Hash is: 00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8
+First 16 bits in Hex and Decimal: 0097 and 151
+151 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: XRY9IMC4
+<Helen Keller verified by P0 at time 566>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "XRY9IMC4",  "WinningHash": "00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "XRY9IMC4",  "WinningHash": "00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8"}
+Consumer got unverified block: Abraham Lincoln
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 61ED18F8591C30CBBFB8E01D60621DC500E3269BF05ADD7D494E2E292EF85F6A
+First 16 bits in Hex and Decimal: 61ED and 25069
+25069 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 3899C15BFB4210394775ECFF69EFE50F5AAE8B07827CF6328D4BA3580C0E6439
+First 16 bits in Hex and Decimal: 3899 and 14489
+14489 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "JLCJP7S9",  "WinningHash": "024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "JLCJP7S9",  "WinningHash": "024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38"}
+The Hash is: C1B35B2284EC05C90DC6702B210FB7D23F9FC00D49823B768CD6FC857F98078D
+First 16 bits in Hex and Decimal: C1B3 and 49587
+49587 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "ZU05MWF7",  "WinningHash": "039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "ZU05MWF7",  "WinningHash": "039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F"}
+The Hash is: 9A6844E8402944AEF2BD9026C809D3276E49E9EDB15323F78CFF994F6CB58BE5
+First 16 bits in Hex and Decimal: 9A68 and 39528
+39528 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 5D5C2239002947EC046623C2D21E0CBADDACE48F883E22291504E674714829EC
+First 16 bits in Hex and Decimal: 5D5C and 23900
+23900 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3M6P6RSP",  "WinningHash": "08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3M6P6RSP",  "WinningHash": "08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9"}
+The Hash is: 9926102B2B06491F75AF605594CFB8151A37C6859C15961127CDED757645A57C
+First 16 bits in Hex and Decimal: 9926 and 39206
+39206 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 27FC650A909717617B68AF3EE4CF37F513B82CC463FF9BEB84A4A5E9584A68D1
+First 16 bits in Hex and Decimal: 27FC and 10236
+10236 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 5E90B7EB60574776154B739768C05D20047A69F038A283A14AD162D65F592D80
+First 16 bits in Hex and Decimal: 5E90 and 24208
+24208 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: A753CE60DBF07DF2855F44DC77F1AEB0E71FBEDD2B4311E9FEC1D89B149EB34A
+First 16 bits in Hex and Decimal: A753 and 42835
+42835 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: A9FA19322090A70D45EC432F00A26016B360E28118F905513C0AA16A2288A59F
+First 16 bits in Hex and Decimal: A9FA and 43514
+43514 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 500149D0692DFC603F7CC0B3DC0FC6F1BBB9A67AA5C78B031C80A5F3FFA1EEA6
+First 16 bits in Hex and Decimal: 5001 and 20481
+20481 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: DE047B1120EC4EE2D13187B7766D1E69939E07BE16BCDB4866B042E55325D560
+First 16 bits in Hex and Decimal: DE04 and 56836
+56836 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 477EC98BE5D000025C74D7F93A3BB99B7164D7E0AA18393EDEBB2F6CA6319782
+First 16 bits in Hex and Decimal: 477E and 18302
+18302 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68
+First 16 bits in Hex and Decimal: 17E0 and 6112
+6112 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 8E2OFKTE
+<Abraham Lincoln verified by P0 at time 506>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "8E2OFKTE",  "WinningHash": "17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "8E2OFKTE",  "WinningHash": "17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68"}
+Consumer got unverified block: Sally McCutty
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: F5C82582468EE1F8D2663BBACF998AB68D6046792C82116EA63BA5CBCB695297
+First 16 bits in Hex and Decimal: F5C8 and 62920
+62920 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: D17725BBD203665B11E05A73E0F3F576877684EA21FE147D950AB2E437577171
+First 16 bits in Hex and Decimal: D177 and 53623
+53623 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 56F5DD3C1BD05A2C13E82D5592601107E21359040B954E9B3F0A76703C2E3080
+First 16 bits in Hex and Decimal: 56F5 and 22261
+22261 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 8D92D57CA9B45D987A7F48554BAA4ABF1B262B72C0333A21433D0C012A38B1E4
+First 16 bits in Hex and Decimal: 8D92 and 36242
+36242 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: C6231E8BC75026235490093E3C6CEDF2006419B41536E0FBA677D74AC4EDD419
+First 16 bits in Hex and Decimal: C623 and 50723
+50723 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 94F98FB3AEF4C1C9B3AAB8807655726748EC6C200EF743D4EF8FDF1784159CAE
+First 16 bits in Hex and Decimal: 94F9 and 38137
+38137 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: FC2CCB39C619B6C8177EF7C4A18EBB8A77889E9326CEED9BD5E4DDAD64283144
+First 16 bits in Hex and Decimal: FC2C and 64556
+64556 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: EDFE9EE3238623CFB30549755D9F0FE191731BDE71835797A5ABCAFA0F2685FF
+First 16 bits in Hex and Decimal: EDFE and 60926
+60926 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 60204EA1A0782404B559A313F9D545B6446EEA97992779FB4838A5C48C3276C5
+First 16 bits in Hex and Decimal: 6020 and 24608
+24608 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 45EA374C6FD50D06A383F661BBACCA3371000A1A48839D8C7F7C9A8928797621
+First 16 bits in Hex and Decimal: 45EA and 17898
+17898 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: A6937941BD5836829C83AEB0D204B3C33FD25C85E57169C7B9A977CF5090B41C
+First 16 bits in Hex and Decimal: A693 and 42643
+42643 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 9923071EF7C277D68824B19FA578628645A5742C9D3883B8ECCCDC7DB557A6B1
+First 16 bits in Hex and Decimal: 9923 and 39203
+39203 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 5CEB30FE318A87FECDED72108B886D4055FB2DDBE1ED57AB97A3976752FCF78F
+First 16 bits in Hex and Decimal: 5CEB and 23787
+23787 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: D4CF818D225F7CC3DFCCAB7AC2BEAEBD91D27610F920D6FC3C7A37B7E114D0E9
+First 16 bits in Hex and Decimal: D4CF and 54479
+54479 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: DF09257B003F1A9623834780A8E93BCB0D9CBF32F4D897E52E240B0326A53235
+First 16 bits in Hex and Decimal: DF09 and 57097
+57097 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F
+First 16 bits in Hex and Decimal: 1FC1 and 8129
+8129 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 8EL8R9I7
+<Sally McCutty verified by P0 at time 447>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "8EL8R9I7",  "WinningHash": "1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F"}
+
+
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "8EL8R9I7",  "WinningHash": "1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F"}
+Consumer got unverified block: John Kennedy
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE
+First 16 bits in Hex and Decimal: 0790 and 1936
+1936 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: G9VDUA7E
+<John Kennedy verified by P0 at time 944>
+
+Consumer got unverified block: Wayne Blaine
+Number will be between 0000 (0) and FFFF (65535)
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "G9VDUA7E",  "WinningHash": "0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "G9VDUA7E",  "WinningHash": "0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE"}
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 69CC104C9ECE06C54433BBD84A0D67A8EC32E4D8A8309BDBF211DF5E60278E27
+First 16 bits in Hex and Decimal: 69CC and 27084
+27084 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: CD30FB88E00DBC4CA9AFA33B4EC16602AA39E1741892B81D0A83EEB77BC3289E
+First 16 bits in Hex and Decimal: CD30 and 52528
+52528 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: CA20E55C737A2CB7580292C8C65062B49C148DA6766022EB7F51F76D1FCFB7E2
+First 16 bits in Hex and Decimal: CA20 and 51744
+51744 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2
+First 16 bits in Hex and Decimal: 1F33 and 7987
+7987 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: VKF8BZP1
+<Wayne Blaine verified by P0 at time 269>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil",  "RandomSeed": "VKF8BZP1",  "WinningHash": "1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2"}
+
+
+{  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil",  "RandomSeed": "VKF8BZP1",  "WinningHash": "1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2"}
+Consumer got unverified block: Bruce Lee
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 469FC905B4AE2C96417943EA784894665826F20A555BB51BE1DF11A1499AB9E3
+First 16 bits in Hex and Decimal: 469F and 18079
+18079 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: A7C6E2907DF686CF6FF0DFB966CC8CAA0BB459E4F72877F931608DAB5F302147
+First 16 bits in Hex and Decimal: A7C6 and 42950
+42950 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 6D31FBEA09DD61B7C128080D1E153159EAF1E911649224FAAF6AD483166C48D6
+First 16 bits in Hex and Decimal: 6D31 and 27953
+27953 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 93A20BD56238E8A90AC89BC11E1C6451694DB77DD1939C3ED51AD922C5886B49
+First 16 bits in Hex and Decimal: 93A2 and 37794
+37794 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: A0A3A55BBCE1A1E5BB4A2E34FC0273CDB4A7C039768373ECED559B4C7BAC333D
+First 16 bits in Hex and Decimal: A0A3 and 41123
+41123 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: CC6ABBFC23EB38C566E772C3A3FF7C6CAE8EF80816C3F8BE9EA3F2560C53E288
+First 16 bits in Hex and Decimal: CC6A and 52330
+52330 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441
+First 16 bits in Hex and Decimal: 1F88 and 8072
+8072 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 3BJ9YU47
+<Bruce Lee verified by P0 at time 282>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "3BJ9YU47",  "WinningHash": "1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441"}
+
+
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "3BJ9YU47",  "WinningHash": "1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441"}
+Consumer got unverified block: Joe DiMaggio
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 8BCF4677270963D66F4B76E71ACD4E4485813E8BEFF3E3AAAB1D246E465B780F
+First 16 bits in Hex and Decimal: 8BCF and 35791
+35791 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 6EC7D02411CAD0FB756EBF590B55A6BF42E7FBB60BD5DDBFE1D7A507817D9D21
+First 16 bits in Hex and Decimal: 6EC7 and 28359
+28359 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: D05D8D0DF85BEAB457BDA60C33990ABBD00823A38EDF5CC5199FC150982D0BC7
+First 16 bits in Hex and Decimal: D05D and 53341
+53341 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: C33A5C6A7D716E109F7A260E6B9C73D94ACD426EB2DA40ABEFA8E1B298861DBC
+First 16 bits in Hex and Decimal: C33A and 49978
+49978 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: CEBBEC7EF605856F70862EC44546773E56D65BCE30E0FE3C5B61A9429E7D6FE1
+First 16 bits in Hex and Decimal: CEBB and 52923
+52923 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9
+First 16 bits in Hex and Decimal: 2130 and 8496
+8496 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 3UOBGJT1
+<Joe DiMaggio verified by P0 at time 914>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3UOBGJT1",  "WinningHash": "2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3UOBGJT1",  "WinningHash": "2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9"}
+
+
+
+
+
+
+
+
+/************************PROCESS ONE****************************/
+
+G-SebastiandeMacBook-Pro:mine g-sebastian$ java -cp ".:gson-2.8.2.jar" Blockchain 1
+Sebastian Gao's BlockFramework. Control-c to quit.
+
+Running on process 1
+
+Now running... 
+
+Reading data from file: BlockInput1.txt
+Timestamp:  1899-12-31.00:00:00.1
+Timestamp:  1901-02-01.00:00:00.1
+Timestamp:  1902-03-02.00:00:00.1
+Timestamp:  1903-04-03.00:00:00.1
+4 records read.
+
+Starting Key Server input thread using port: 4711
+Starting the Unverified Block Server input thread using port: 4821
+Starting the blockchain server input thread using port: 4931
+Put the block in priority queue: {  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen"}
+
+Put the block in priority queue: {  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax"}
+
+Put the block in priority queue: {  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan"}
+
+Put the block in priority queue: {  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine"}
+
+Starting the unverified block priority queue consumer thread.
+
+Consumer got unverified block: Rita Vita
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 10664C163A1E66B5C44C6DD1CE221C030BF56C7173408EDD3814A0ED8431E066
+First 16 bits in Hex and Decimal: 1066 and 4198
+4198 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: KF9HB6G6
+<Rita Vita verified by P0 at time 582>
+
+Consumer got unverified block: Wei Xu
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "KF9HB6G6",  "WinningHash": "10664C163A1E66B5C44C6DD1CE221C030BF56C7173408EDD3814A0ED8431E066"}
+
+
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "KF9HB6G6",  "WinningHash": "10664C163A1E66B5C44C6DD1CE221C030BF56C7173408EDD3814A0ED8431E066"}
+The Hash is: B47EA5AD535B9E8491272A95219417B298B6DD34A575266D8A92E8CA8B18D38C
+First 16 bits in Hex and Decimal: B47E and 46206
+46206 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: C62690330FD9DDA7D0B2266FE11D4B909FA8EFEEE9D46D5B2C8D10BD46A87A9E
+First 16 bits in Hex and Decimal: C626 and 50726
+50726 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "86d22916-e5c9-4666-a3a5-95082cda8856",  "TimeStamp": " 1902-03-02.00:00:00.0",  "Fname": "Julie",  "Lname": "Wilson",  "SSNum": "123-45-6999",  "DOB": "1996.03.07",  "Diag": "Insomnia",  "Treat": "Exercise",  "Rx": "HotPeppers",  "RandomSeed": "IAKDEICM",  "WinningHash": "126C60837A82EB9959C0E115904AEE7EBD099072FF3C36FF5FC985BB297640B5"}
+
+
+{  "BlockID": "86d22916-e5c9-4666-a3a5-95082cda8856",  "TimeStamp": " 1902-03-02.00:00:00.0",  "Fname": "Julie",  "Lname": "Wilson",  "SSNum": "123-45-6999",  "DOB": "1996.03.07",  "Diag": "Insomnia",  "Treat": "Exercise",  "Rx": "HotPeppers",  "RandomSeed": "IAKDEICM",  "WinningHash": "126C60837A82EB9959C0E115904AEE7EBD099072FF3C36FF5FC985BB297640B5"}
+The Hash is: D00537E58EC28F6D7A60DEF008C8DDE9AAB2770171894FBC4DA526B2ADA383D0
+First 16 bits in Hex and Decimal: D005 and 53253
+53253 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 8E97541A49160B875F3DD3AAD35A94AD6DBDF2A61FCEB9FFC49E15A88872A4AA
+First 16 bits in Hex and Decimal: 8E97 and 36503
+36503 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 7AF0343D8C5903E2E4ACFF2A42AAAB1C6D8C588FEF916D828DFC3542DBA07216
+First 16 bits in Hex and Decimal: 7AF0 and 31472
+31472 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "O4F7UMRT",  "WinningHash": "1B0743B8DAD444023A51F9C7C38008B0DF6FDDAAEA184B63BFA7288E091778B0"}
+
+
+{  "BlockID": "20dd91b4-b73d-4847-87cf-419a98f03c2b",  "TimeStamp": " 1899-12-31.00:00:00.1",  "Fname": "Rita",  "Lname": "Vita",  "SSNum": "999-456-789",  "DOB": "1992.01.31",  "Diag": "ObessivePersonality",  "Treat": "TryToRelax",  "Rx": "Ibuprofen",  "RandomSeed": "O4F7UMRT",  "WinningHash": "1B0743B8DAD444023A51F9C7C38008B0DF6FDDAAEA184B63BFA7288E091778B0"}
+The Hash is: 25B95E64BB9ED3ECC9D11F692AB0DE8B623727E74F09BF1EF5F260880E2EA7EB
+First 16 bits in Hex and Decimal: 25B9 and 9657
+9657 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: F2IKAQJ3
+<Wei Xu verified by P0 at time 256>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "F2IKAQJ3",  "WinningHash": "25B95E64BB9ED3ECC9D11F692AB0DE8B623727E74F09BF1EF5F260880E2EA7EB"}
+
+
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "F2IKAQJ3",  "WinningHash": "25B95E64BB9ED3ECC9D11F692AB0DE8B623727E74F09BF1EF5F260880E2EA7EB"}
+Consumer got unverified block: Sally McCutty
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 6C889BCCCEBBB87DBE453DFEE902CD64D4AF9C451CF86807F6B118F27B0D7D38
+First 16 bits in Hex and Decimal: 6C88 and 27784
+27784 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 2674F1F3824220E4D4750DB1C14A5CA809A6FA1C5C2273FE5D04481E944E0635
+First 16 bits in Hex and Decimal: 2674 and 9844
+9844 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: Q6D7LZD4
+<Sally McCutty verified by P0 at time 975>
+
+Consumer got unverified block: Bruce Lee
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 447E0CEABFFC54D3BAA9C1693F97921717BE14D8EF20158B6B2380F352E96113
+First 16 bits in Hex and Decimal: 447E and 17534
+17534 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "Q6D7LZD4",  "WinningHash": "2674F1F3824220E4D4750DB1C14A5CA809A6FA1C5C2273FE5D04481E944E0635"}
+
+
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "Q6D7LZD4",  "WinningHash": "2674F1F3824220E4D4750DB1C14A5CA809A6FA1C5C2273FE5D04481E944E0635"}
+The Hash is: E11F15FF187B62828848FF5F12E56039C318E5C1063CCCA95329A57FDC9649A6
+First 16 bits in Hex and Decimal: E11F and 57631
+57631 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 7718ED1705322000E9B863F2174D251B590B6D2780615B7E69CA5EB46A78D52C
+First 16 bits in Hex and Decimal: 7718 and 30488
+30488 is not less than 10,000 so we did not solve the puzzle
+
+Put the block in priority queue: {  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin"}
+
+Put the block in priority queue: {  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey"}
+
+Put the block in priority queue: {  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids"}
+
+Put the block in priority queue: {  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin"}
+
+The Hash is: 2CE07AA4434C00959544F331EB3D3D2AF57D8151043BF42A4B6487E9CC6BA2BC
+First 16 bits in Hex and Decimal: 2CE0 and 11488
+11488 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 4E3687183EB1AC0797BE3D5498584F1BD250702FE9906F6AEC5B008DB9E15912
+First 16 bits in Hex and Decimal: 4E36 and 20022
+20022 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 4181B9B1F3A455431440CBA08E76E73EAC6C5922A6316EB4900415B66DEB39FB
+First 16 bits in Hex and Decimal: 4181 and 16769
+16769 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: EB783B52ED38819F5276A0DACB040D97D767173CE68C53E155D679661C7126E2
+First 16 bits in Hex and Decimal: EB78 and 60280
+60280 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: DF6D5B8F562F63E26EB4F2E05D0BC6D57F3E58F6075072602CCB8687D4CF82EC
+First 16 bits in Hex and Decimal: DF6D and 57197
+57197 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95
+First 16 bits in Hex and Decimal: 1AE4 and 6884
+6884 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: NJTY06TI
+<Bruce Lee verified by P0 at time 132>
+
+Consumer got unverified block: Helen Keller
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 5E66BD00799F3425C31DDE4D9E02DC6549B7EE6B5C162414C7B25AE97D58AD1A
+First 16 bits in Hex and Decimal: 5E66 and 24166
+24166 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "NJTY06TI",  "WinningHash": "1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95"}
+
+
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "NJTY06TI",  "WinningHash": "1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95"}
+The Hash is: 23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D
+First 16 bits in Hex and Decimal: 23A4 and 9124
+9124 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: IUIM0NSH
+<Helen Keller verified by P0 at time 572>
+
+Consumer got unverified block: Abraham Lincoln
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 623B0DA27311DA783933CB8CF5746F2DBF27F2A5415FF00B2F26CA4DCAA501A3
+First 16 bits in Hex and Decimal: 623B and 25147
+25147 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "IUIM0NSH",  "WinningHash": "23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "IUIM0NSH",  "WinningHash": "23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "QZW99WC3",  "WinningHash": "004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "QZW99WC3",  "WinningHash": "004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81"}
+The Hash is: E1484B09FF1F4B50F2AA96777A71FEB5E1FBB0171D3044C95FED87D3062EF7E3
+First 16 bits in Hex and Decimal: E148 and 57672
+57672 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 40D36EA62F62119D94C9CC89E46DFDC3AE55EFB66445CEC5CA0FA7BBE3420348
+First 16 bits in Hex and Decimal: 40D3 and 16595
+16595 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: C7F13F97F92DDFC3584B299AF4DD8EA348BEB29E4E7199CFB0FAB17CD1A14BA6
+First 16 bits in Hex and Decimal: C7F1 and 51185
+51185 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 846A659BA76DD981E30571AB4B11C301D5B0989B599BFEF345B5B175C5535B31
+First 16 bits in Hex and Decimal: 846A and 33898
+33898 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028
+First 16 bits in Hex and Decimal: 26B3 and 9907
+9907 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 4WHT57V7
+<Abraham Lincoln verified by P0 at time 706>
+
+Consumer got unverified block: John Kennedy
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: F8037A33E59473D2BB5837998275678EBCE13276BA809E6ED1F92E63D66230CB
+First 16 bits in Hex and Decimal: F803 and 63491
+63491 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "4WHT57V7",  "WinningHash": "26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "4WHT57V7",  "WinningHash": "26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028"}
+The Hash is: D93B37EC332B9CA6482E401E67A31D51A91E83B8E64E2181F369A115048BD9BA
+First 16 bits in Hex and Decimal: D93B and 55611
+55611 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 3E4BB4946FA0371ACF1C96752353AAEFFA5778AD7FABAD70E7234A8CD3BDB32F
+First 16 bits in Hex and Decimal: 3E4B and 15947
+15947 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "BEOTL1KJ",  "WinningHash": "2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8"}
+
+
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "BEOTL1KJ",  "WinningHash": "2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8"}
+The Hash is: 028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF
+First 16 bits in Hex and Decimal: 028D and 653
+653 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: XE6ORXCN
+<John Kennedy verified by P0 at time 689>
+
+Consumer got unverified block: Joe DiMaggio
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "XE6ORXCN",  "WinningHash": "028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "XE6ORXCN",  "WinningHash": "028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF"}
+The Hash is: 42B16D23C6426680F0ECED68F3790F69DC935BBE886CAA7B9A106DF126A73DCC
+First 16 bits in Hex and Decimal: 42B1 and 17073
+17073 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: F5062EF49F58062B5F147A1E6E666DC3097B7128DEA8D0437DD678F52DC3BDD8
+First 16 bits in Hex and Decimal: F506 and 62726
+62726 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 36E8BD53BE2AC098AD3DBD1FD3D29A381C9CA5B8D0E469D867D00D64694317F8
+First 16 bits in Hex and Decimal: 36E8 and 14056
+14056 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 384D79653931E3F2A7DDD8287BD1C518FC4063921D47078F4C5269AB1D43BD39
+First 16 bits in Hex and Decimal: 384D and 14413
+14413 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "HGUA2TTX",  "WinningHash": "111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "HGUA2TTX",  "WinningHash": "111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8"}
+The Hash is: 78569AACFCF056D8668F27680BAF191A2529BE5B42182F3D5F2606F05ABDEEFA
+First 16 bits in Hex and Decimal: 7856 and 30806
+30806 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "XRY9IMC4",  "WinningHash": "00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "XRY9IMC4",  "WinningHash": "00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8"}
+The Hash is: 44B0AF048BEA4269664FFAA8553E324DC3922F4F539919C7ABF30B75FED28881
+First 16 bits in Hex and Decimal: 44B0 and 17584
+17584 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38
+First 16 bits in Hex and Decimal: 024C and 588
+588 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: JLCJP7S9
+<Joe DiMaggio verified by P0 at time 703>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "JLCJP7S9",  "WinningHash": "024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "JLCJP7S9",  "WinningHash": "024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "ZU05MWF7",  "WinningHash": "039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "ZU05MWF7",  "WinningHash": "039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3M6P6RSP",  "WinningHash": "08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3M6P6RSP",  "WinningHash": "08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "8E2OFKTE",  "WinningHash": "17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "8E2OFKTE",  "WinningHash": "17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "8EL8R9I7",  "WinningHash": "1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F"}
+
+
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "8EL8R9I7",  "WinningHash": "1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "G9VDUA7E",  "WinningHash": "0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "G9VDUA7E",  "WinningHash": "0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil",  "RandomSeed": "VKF8BZP1",  "WinningHash": "1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2"}
+
+
+{  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil",  "RandomSeed": "VKF8BZP1",  "WinningHash": "1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "3BJ9YU47",  "WinningHash": "1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441"}
+
+
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "3BJ9YU47",  "WinningHash": "1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3UOBGJT1",  "WinningHash": "2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3UOBGJT1",  "WinningHash": "2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9"}
+
+
+/************************PROCESS TWO****************************/
+
+
+G-SebastiandeMacBook-Pro:mine g-sebastian$ java -cp ".:gson-2.8.2.jar" Blockchain 2
+Sebastian Gao's BlockFramework. Control-c to quit.
+
+Running on process 2
+
+Now running... 
+
+Reading data from file: BlockInput2.txt
+Timestamp:  1899-12-31.00:00:00.2
+Timestamp:  1901-02-01.00:00:00.2
+Timestamp:  1902-03-02.00:00:00.2
+Timestamp:  1903-04-03.00:00:00.2
+4 records read.
+
+Starting Key Server input thread using port: 4712
+Starting the Unverified Block Server input thread using port: 4822
+Starting the blockchain server input thread using port: 4932
+Put the block in priority queue: {  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin"}
+
+Put the block in priority queue: {  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey"}
+
+Put the block in priority queue: {  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids"}
+
+Put the block in priority queue: {  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin"}
+
+Starting the unverified block priority queue consumer thread.
+
+Consumer got unverified block: Helen Keller
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 8CC70C6B0E5DEBC15F015E1336339036EE0A4C449AECE0C3943C8BFBA4F434B5
+First 16 bits in Hex and Decimal: 8CC7 and 36039
+36039 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 29FB75A3B1DD1D313236C654D276554684BD14471165396C9AAD8398DEB10206
+First 16 bits in Hex and Decimal: 29FB and 10747
+10747 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: FE0E874DD6884E9025A0AF53EE305698C2645835D1EBA3B414B1DEC1D2C81870
+First 16 bits in Hex and Decimal: FE0E and 65038
+65038 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: A8BAAE673C88F441EB14DED8BB5A9513D00F65A8485D25894DE9291015E0B0C1
+First 16 bits in Hex and Decimal: A8BA and 43194
+43194 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 5DEE03D5D0B0FB003ABB970766260A87EC204810AB46D6DF067C8358BEC19CB7
+First 16 bits in Hex and Decimal: 5DEE and 24046
+24046 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: CEB386263E105B8C1D44A2C3CA7E868726AE0E36545536AD3FBC2D7A9B992F9A
+First 16 bits in Hex and Decimal: CEB3 and 52915
+52915 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "NJTY06TI",  "WinningHash": "1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95"}
+
+
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "NJTY06TI",  "WinningHash": "1AE4B9AD5D399FAB04DE3968BAC7CB4CB02ECAE45EC7071F50966F9320FDEC95"}
+The Hash is: F2CDF08B17A3C5F70ADF97209850D9F2F3BFE9165046BADB5174025ABE75DE52
+First 16 bits in Hex and Decimal: F2CD and 62157
+62157 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "IUIM0NSH",  "WinningHash": "23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "IUIM0NSH",  "WinningHash": "23A46BB5DC5A1AD9153F4F15471C2F488F2255E5FD36EADE91FB2A9604FC4A6D"}
+The Hash is: 004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81
+First 16 bits in Hex and Decimal: 0047 and 71
+71 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: QZW99WC3
+<Helen Keller verified by P0 at time 250>
+
+Consumer got unverified block: Abraham Lincoln
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "QZW99WC3",  "WinningHash": "004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "QZW99WC3",  "WinningHash": "004785EB84C36D1F0AF87489D9B6060F5F4DC309D5B4A6D46982763040468E81"}
+The Hash is: C0082A7D55AF906A449F7A5111EA3C54540D008F1748F0F18319A083113508FE
+First 16 bits in Hex and Decimal: C008 and 49160
+49160 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 87047F3AD42D6046867F453D49AB072E73EB8DAD6B3D61E1FEEB591DB34201DC
+First 16 bits in Hex and Decimal: 8704 and 34564
+34564 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 98860098D127F5F9B5B8B4293DBB5AA6A7EF0014259F73F7CE2FA9B61CA2A0C9
+First 16 bits in Hex and Decimal: 9886 and 39046
+39046 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 49F3001925827AE11A120A05F1D632AB76E4F724F65A1798824F4E139CFDF50C
+First 16 bits in Hex and Decimal: 49F3 and 18931
+18931 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: C96BFADAE233AACFFED278C07E1C06BBB2B82513120351FCB3E987F2F9BB97F7
+First 16 bits in Hex and Decimal: C96B and 51563
+51563 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "4WHT57V7",  "WinningHash": "26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "4WHT57V7",  "WinningHash": "26B3B18D2605EDCDD8E7B78B99DB6122D7E5322132BAA7E93423594BE91CF028"}
+The Hash is: 2C3C97C9A3750FCCD53000C3BDE41CC0BD2227067BD97D1BFD787A03F926CB25
+First 16 bits in Hex and Decimal: 2C3C and 11324
+11324 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: C8EEB946125C7BEF34F3828957BA25C486F28D55044918715A6DBDCAC177693C
+First 16 bits in Hex and Decimal: C8EE and 51438
+51438 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "BEOTL1KJ",  "WinningHash": "2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8"}
+
+
+{  "BlockID": "85f61046-38a9-4b9f-b0a0-995fd8d362e6",  "TimeStamp": " 1901-02-01.00:00:00.1",  "Fname": "Wei",  "Lname": "Xu",  "SSNum": "123-456-333",  "DOB": "1996.03.22",  "Diag": "Shingles",  "Treat": "WaitForRelief",  "Rx": "Zovirax",  "RandomSeed": "BEOTL1KJ",  "WinningHash": "2110F316940B4943E4BDBCEFB1502B002A40C50ADD12A5915CAD10AAACE144C8"}
+The Hash is: 803D73CCEF57D04135C4F482CCC222B7449BE4F26808C3784B9391828076EA3B
+First 16 bits in Hex and Decimal: 803D and 32829
+32829 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "XE6ORXCN",  "WinningHash": "028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "XE6ORXCN",  "WinningHash": "028DCEDF3C1CD5B67CBEECAB353CE361AEAA7E16C5E5BD25E1E0D9E3FF23A1CF"}
+The Hash is: 34921658DF6C2586C6AFFD70191C039CFED1B6D760973A3F5B9868809AF8B96D
+First 16 bits in Hex and Decimal: 3492 and 13458
+13458 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: FCBA65BF650F0D8819BFA90A3153DEE8C3BD349BE640D8E22F90946AF84D4499
+First 16 bits in Hex and Decimal: FCBA and 64698
+64698 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 783F82312E5F71BEFA289DE18E480ED7DE34B993C745F5D46556282E530EAF36
+First 16 bits in Hex and Decimal: 783F and 30783
+30783 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8
+First 16 bits in Hex and Decimal: 111E and 4382
+4382 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: HGUA2TTX
+<Abraham Lincoln verified by P0 at time 132>
+
+Consumer got unverified block: John Kennedy
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: 7837585AC3ACEBDC369ACB79B38E5EBC472620F19D90496DF992F1B9401D3D68
+First 16 bits in Hex and Decimal: 7837 and 30775
+30775 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "HGUA2TTX",  "WinningHash": "111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "HGUA2TTX",  "WinningHash": "111E017D2C3F14BF844EFB0A0E331917D61A42799F16F00364798A1E2DD716C8"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "XRY9IMC4",  "WinningHash": "00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8"}
+
+
+{  "BlockID": "8b0554ec-76fe-4cbc-98c4-141e4e2a8c17",  "TimeStamp": " 1899-12-31.00:00:00.2",  "Fname": "Helen",  "Lname": "Keller",  "SSNum": "666-45-6789",  "DOB": "1880.06.27",  "Diag": "Arthritis",  "Treat": "WarmCloths",  "Rx": "Aspirin",  "RandomSeed": "XRY9IMC4",  "WinningHash": "00972960FC6C6DFAB7150AC4E65D29CDA045F1348BD2AE9073390202413176C8"}
+The Hash is: 8C318EE3296261168F307059B96CBD92E631FF55F0FEFFA3C6EE06C3D5D4F724
+First 16 bits in Hex and Decimal: 8C31 and 35889
+35889 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 3CFE7164A67591892C4161361F39409E6B1221DCDDFBEF109DD2B53413AA03D6
+First 16 bits in Hex and Decimal: 3CFE and 15614
+15614 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "JLCJP7S9",  "WinningHash": "024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "JLCJP7S9",  "WinningHash": "024C06EB0CA30CCCE6D01E16208FCE2FC6F5BA6CD9726636B0AE2C485B138E38"}
+The Hash is: 039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F
+First 16 bits in Hex and Decimal: 039E and 926
+926 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: ZU05MWF7
+<John Kennedy verified by P0 at time 890>
+
+Consumer got unverified block: Joe DiMaggio
+Number will be between 0000 (0) and FFFF (65535)
+
+0x0000 = 0
+0xFFFF = 65535
+
+The Hash is: F46DEB7031C6532A272ABA7DBE324D3E24304E743126C2118088244EF9E4203A
+First 16 bits in Hex and Decimal: F46D and 62573
+62573 is not less than 10,000 so we did not solve the puzzle
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "ZU05MWF7",  "WinningHash": "039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "ZU05MWF7",  "WinningHash": "039EE707B0EFB3AE292089B137915D0B2A4B39187440AB6B7199E9F53DD5FA5F"}
+The Hash is: C2ECB20C8B034AC99785282A20BA1880DC25E3112CC743FC86979089DE3EBDCF
+First 16 bits in Hex and Decimal: C2EC and 49900
+49900 is not less than 10,000 so we did not solve the puzzle
+
+The Hash is: 08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9
+First 16 bits in Hex and Decimal: 08EF and 2287
+2287 IS less than 10,000 so puzzle solved!
+The seed (puzzle answer) was: 3M6P6RSP
+<Joe DiMaggio verified by P0 at time 338>
+
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3M6P6RSP",  "WinningHash": "08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3M6P6RSP",  "WinningHash": "08EF674D80F71E6FCBEABB9774093F63D336CDCE8565780A717BE283A42946B9"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "8E2OFKTE",  "WinningHash": "17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68"}
+
+
+{  "BlockID": "14836e75-71e5-4051-9e3c-9745598677c5",  "TimeStamp": " 1901-02-01.00:00:00.2",  "Fname": "Abraham",  "Lname": "Lincoln",  "SSNum": "444-45-6888",  "DOB": "1809.02.12",  "Diag": "GreviousWound",  "Treat": "Surgery",  "Rx": "Whiskey",  "RandomSeed": "8E2OFKTE",  "WinningHash": "17E03FAB0FB16C0FE3E7364724EA7D97222C17D2754B29FEE190A10C12497C68"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "8EL8R9I7",  "WinningHash": "1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F"}
+
+
+{  "BlockID": "231e90b0-956e-42d9-8d59-f7ced830e783",  "TimeStamp": " 1902-03-02.00:00:00.1",  "Fname": "Sally",  "Lname": "McCutty",  "SSNum": "123-456-999",  "DOB": "1970.01.01",  "Diag": "Migraine",  "Treat": "IcePack",  "Rx": "Almotriptan",  "RandomSeed": "8EL8R9I7",  "WinningHash": "1FC156559FB62CC7494B24A99B5BAFE1C663C37F9B1E59169566611E344E7E8F"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "G9VDUA7E",  "WinningHash": "0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE"}
+
+
+{  "BlockID": "e25b525b-f758-40d9-bd1b-9e05f70750d5",  "TimeStamp": " 1902-03-02.00:00:00.2",  "Fname": "John",  "Lname": "Kennedy",  "SSNum": "333-45-6999",  "DOB": "1917.05.29",  "Diag": "AddisonsDisease",  "Treat": "DrugTherapy",  "Rx": "Steroids",  "RandomSeed": "G9VDUA7E",  "WinningHash": "0790E63F8DD42CA3BD7C8A45F92B9C7C3842DA95B5733B94705C18CFABE15DDE"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil",  "RandomSeed": "VKF8BZP1",  "WinningHash": "1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2"}
+
+
+{  "BlockID": "c5d09c4b-c344-4591-81dc-0bc28c6910d4",  "TimeStamp": " 1903-04-03.00:00:00.0",  "Fname": "Wayne",  "Lname": "Blaine",  "SSNum": "123-45-6777",  "DOB": "1942.07.07",  "Diag": "Measles",  "Treat": "WaitToGetBetter",  "Rx": "CodLiverOil",  "RandomSeed": "VKF8BZP1",  "WinningHash": "1F3382C957447A94F26470F7D8A8AF86CE942589FC188F685370E614D40AF9A2"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "3BJ9YU47",  "WinningHash": "1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441"}
+
+
+{  "BlockID": "c4af878a-e147-4233-a1dc-5f882b405e5c",  "TimeStamp": " 1903-04-03.00:00:00.1",  "Fname": "Bruce",  "Lname": "Lee",  "SSNum": "456-789-123",  "DOB": "1940.11.27",  "Diag": "SoreStomach",  "Treat": "LessCombat",  "Rx": "Vicodine",  "RandomSeed": "3BJ9YU47",  "WinningHash": "1F882EB0766ACC5BB4A6A05B583ADDC123D6A9B153673851E593FEB548090441"}
+         --NEW BLOCKCHAIN--
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3UOBGJT1",  "WinningHash": "2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9"}
+
+
+{  "BlockID": "a26f036d-ab43-42cb-bf63-c994cbfdf1a3",  "TimeStamp": " 1903-04-03.00:00:00.2",  "Fname": "Joe",  "Lname": "DiMaggio",  "SSNum": "111-22-3333",  "DOB": "1914.11.25",  "Diag": "SoreKnees",  "Treat": "RestFromSports",  "Rx": "Aspirin",  "RandomSeed": "3UOBGJT1",  "WinningHash": "2130FAE676C91548E1B0622BD02441AB900C760A7F491D85CB85141C2BEC46F9"}
+

@@ -1,0 +1,139 @@
+>java JokeServer
+
+G-SebastiandeMacBook-Pro:coding g-sebastian$ java JokeServer
+Sebastian Gao's Joke Server running.
+In the admin looper thread
+Primary server: localhost, port 4545. JokeClientAdmin using port 5050.
+Start from Joke mode.
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+
+JOKE CYCLE COMPLETED
+
+>java JokeClient
+
+G-SebastiandeMacBook-Pro:coding g-sebastian$ java JokeClient
+Sebastian Gao's Joke Client
+Primary server: localhost, port: 4545. JokeClientAdmin running at port 5050.
+Welcom! Please enter your name to begin the program.
+Sebastian
+Press return to get jokes/proverbs, type 's' to toggle server, type 'quit' to exit program.
+
+JA Sebastian: What did the 0 say to the 8?  Nice belt!
+
+JB Sebastian: Why Sebastian has more hair than before? He stopped coding!
+
+JC Sebastian: What does Charles Dickens keep in his spice rack? The best of thymes, the worst of thymes.
+
+JD Sebastian: What did the lest eye say to the right eye?  Between you and me, something smells
+
+JOKE CYCLE COMPLETED
+
+>java JokeClientAdmin
+
+G-SebastiandeMacBook-Pro:coding g-sebastian$ java JokeClientAdmin
+Sebastian Gao's JokeClientAdmin
+Primary server: localhost, port 4545. JokeClientAdmin running at port:5050
+Press return to switch mode, type 's' to toggle server, type 'quit' to exit program.
+
+Switched mode, currently in Proverb mode.
+
+>Server after switched mode
+
+Switched mode, currently in Proverb mode.
+Here is the Proverb, Sebastian!
+Here is the Proverb, Sebastian!
+Here is the Proverb, Sebastian!
+Here is the Proverb, Sebastian!
+Here is the Proverb, Sebastian!
+
+PROVERB CYCLE COMPLETED
+
+>Client after switched mode
+
+PA Sebastian: A journey of thousand miles begins with a single step.
+
+PB Sebastian: All good things come to an end.
+
+PC Sebastian: Always put your best foot forward.
+
+PD Sebastian: An apple a day keeps the doctor away.
+
+PROVERB CYCLE COMPLETED
+
+
+> Server switched to joke mode
+
+Switched mode, currently in Joke mode.
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+
+JOKE CYCLE COMPLETED
+
+>Client after mode switched
+
+JB Sebastian: Why Sebastian has more hair than before? He stopped coding!
+
+JA Sebastian: What did the 0 say to the 8?  Nice belt!
+
+JC Sebastian: What does Charles Dickens keep in his spice rack? The best of thymes, the worst of thymes.
+
+JD Sebastian: What did the lest eye say to the right eye?  Between you and me, something smells
+
+JOKE CYCLE COMPLETED
+
+>CLientAdmin after mode switched
+
+Switched mode, currently in Joke mode.
+
+
+>CLientAdmin after switched server
+
+s
+Communicating with localhost at the moment, port 4546.
+
+
+>Server after switched server
+
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+Here is the Joke, Sebastian!
+
+JOKE CYCLE COMPLETED
+
+>CLient after switched server
+
+JC Sebastian: What does Charles Dickens keep in his spice rack? The best of thymes, the worst of thymes.
+
+JA Sebastian: What did the 0 say to the 8?  Nice belt!
+
+JB Sebastian: Why Sebastian has more hair than before? He stopped coding!
+
+JD Sebastian: What did the lest eye say to the right eye?  Between you and me, something smells
+
+JOKE CYCLE COMPLETED
+
+>Client
+
+G-SebastiandeMacBook-Pro:coding g-sebastian$ java JokeClient localhost 140.192.1.9
+Sebastian Gao's Joke Client
+Secondary server: 140.192.1.9, port: 4546. JokeClientAdmin running at port 5051.
+Welcom! Please enter your name to begin the program.
+
+Press return to get jokes/proverbs, type 's' to toggle server, type 'quit' to exit program.
+
+//it doesn't work so well here, I cannot test this code on different computer since I cannot go outdue to this coronavirus
+
+>ClientAdmin
+
+G-SebastiandeMacBook-Pro:coding g-sebastian$ java JokeClientAdmin localhost localhost
+Sebastian Gao's JokeClientAdmin
+Secondary server: localhost, port 4546. JokeClientAdmin running at port:5051
+Press return to switch mode, type 's' to toggle server, type 'quit' to exit program.
+
